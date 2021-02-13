@@ -186,6 +186,7 @@
 import React from 'react';
 import {Grid, Button} from '@material-ui/core'
 import {NavigateNext} from '@material-ui/icons'
+import FiberDvrIcon from '@material-ui/icons/FiberDvr';
 
 export default function Hero({video, desired}) {
   return (
@@ -194,7 +195,9 @@ export default function Hero({video, desired}) {
       <Grid item xs={3}>
         <p style={{color: 'red', fontSize: 30}}>Lake Wenchi</p>
         <p style={{color: 'gray', fontSize: 16}}> Wilde animals and birds of various species includin gendemics.Discovered and undiscovered caves,Prehistoric physical remains and Poleoanthropological Site like Awash Malka Qunture are among valuable heritage in Oromia .</p>
-        <Button style={{backgroundColor: '#5caf25', color: 'white'}}><NavigateNext /></Button>
+        <Button style={{backgroundColor: '#5caf25', color: 'white', marginRight: 30}}><NavigateNext /></Button>
+        <Button style={{backgroundColor: '#5caf25', color: 'white'}}><FiberDvrIcon /></Button>
+
       </Grid>
       <Grid item xs={9} padding >
       <video className='videoTag' autoPlay loop muted style={{borderRadius: 400}}>

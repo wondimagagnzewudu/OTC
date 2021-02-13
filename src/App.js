@@ -41,7 +41,7 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/Progress" component={Progress} layout={LayoutDefault} />
-     <AppRoute exact path="/Contactus" component={Contactus} layout={LayoutDefault} />
+          <AppRoute exact path="/Contactus" component={Contactus} layout={LayoutDefault} />
 
         </Switch>
       )} />

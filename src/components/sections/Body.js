@@ -16,8 +16,8 @@ export default function Body({ image, title, about, hotel, tips, name,  }) {
       </Grid>
       <Grid item xs={12} md={4}>
       <div class="scroll-hide" >      
-        <img src={image} style={{width: '100%'}}/>
-        <img src={hotel} style={{width: '100%'}}/>  
+        <img src={image} style={{width: '100%', height: 250}}/>
+        <img src={hotel} style={{width: '100%', height: 250}}/>  
       </div>      
       </Grid>
       <Grid item xs={12} md={4}>
