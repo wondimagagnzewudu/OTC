@@ -110,9 +110,9 @@ const FeaturesTiles = ({
             style={{width: '100%', borderRadius: 20, padding: 20}}
           >
             <Grid container spacing={1}>
-              <Grid item xs={3}><img src={one} style={{height: 200, borderTopLeftRadius: 20, borderBottomLeftRadius: 20}}/></Grid>
-              <Grid item xs={6}><img src={two} style={{height: 200, width: '100%'}}/></Grid>
-              <Grid item xs={3}><img src={three} style={{height: 200, borderTopRightRadius: 20, borderBottomRightRadius: 20}}/></Grid>
+              <Grid item xs={3}><img src={one} style={{height: 350, borderTopLeftRadius: 20, borderBottomLeftRadius: 20}}/></Grid>
+              <Grid item xs={6}><img src={two} style={{height: 350, width: '100%'}}/></Grid>
+              <Grid item xs={3}><img src={three} style={{height: 350, borderTopRightRadius: 20, borderBottomRightRadius: 20}}/></Grid>
             </Grid>
             <p style={{fontSize: 30, fontWeight: 'bold', color: 'red', paddingTop: '2%', paddingBottom: '1%', paddingLeft: '1%'}}>Officia Sint</p>
             <p style={{color: 'black', padding: '1%'}}>Est eiusmod excepteur incididunt quis officia voluptate irure non velit magna adipisicing deserunt id. Commodo ipsum duis Lorem commodo amet aute. Reprehenderit veniam elit sit anim nulla ea id eiusmod incididunt ea Lorem eiusmod aliquip ad. Anim non exercitation velit ipsum. Ut sint esse do id esse Lorem adipisicing minim adipisicing aliqua enim. Exercitation veniam do non nostrud duis eiusmod.</p>
